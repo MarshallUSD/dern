@@ -13,7 +13,6 @@ import { authRoutes } from './routes/auth.js';
 import { knowledgeBaseRoutes } from './routes/knowledgeBase.js';
 import { seedDatabase } from './seed/seed.js';
 
-// Load environment variables
 dotenv.config();
 
 // Create Express app
